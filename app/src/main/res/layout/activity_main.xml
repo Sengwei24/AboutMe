@@ -17,6 +17,39 @@
         android:textAlignment="center"
         style="@style/NameStyle" />
 
+    <EditText
+        android:id="@+id/nickname_edit"
+        style="@style/NameStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/layout_margin"
+        android:ems="10"
+        android:fontFamily="@font/roboto"
+        android:hint="What is your Nickname?"
+        android:inputType="textPersonName"
+        android:padding="@dimen/layout_padding"
+        android:textAlignment="center" />
+
+    <Button
+        android:id="@+id/done_button"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="@dimen/layout_margin"
+        android:fontFamily="@font/roboto"
+        android:text="@string/done"
+        android:textColor="@color/white"
+        app:backgroundTint="@color/colorAccent" />
+
+    <TextView
+        android:id="@+id/nickname_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textAlignment="center"
+        android:visibility="gone" />
+
     <ImageView
         android:id="@+id/star_image"
         android:layout_width="match_parent"
